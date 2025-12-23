@@ -1,0 +1,85 @@
+{
+  "name": "link-symbol-comment",
+  "displayName": "Link Symbol Comment",
+  "description": "Navigate to function definitions through comment links using [description](file.ext@function_name) or [description](@function_name) syntax. Supports Python, JavaScript, TypeScript, PHP, Java, and more.",
+  "version": "1.0.0",
+  "publisher": "meetrice",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "navigation",
+    "comment",
+    "link",
+    "function",
+    "definition",
+    "jump",
+    "code",
+    "reference",
+    "documentation",
+    "python",
+    "javascript",
+    "typescript"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "python",
+        "aliases": ["Python", "py"],
+        "extensions": [".py"]
+      },
+      {
+        "id": "javascript",
+        "aliases": ["JavaScript", "javascript", "js"],
+        "extensions": [".js", ".mjs"]
+      },
+      {
+        "id": "typescript",
+        "aliases": ["TypeScript", "typescript", "ts"],
+        "extensions": [".ts"]
+      },
+      {
+        "id": "php",
+        "aliases": ["PHP", "php"],
+        "extensions": [".php"]
+      },
+      {
+        "id": "java",
+        "aliases": ["Java", "java"],
+        "extensions": [".java"]
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/YOUR_REPO#readme",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.x",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.4"
+  }
+}
