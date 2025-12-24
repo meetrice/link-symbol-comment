@@ -3,7 +3,7 @@
 
 在代码注释中创建可点击的链接，快速跳转到函数定义。
 
-![Link Symbol Comment 演示](https://raw.githubusercontent.com/meetrice/link-symbol-comment/main/assets/linksymbol.gif)
+![Link Symbol Comment 演示](https://github.com/meetrice/link-symbol-comment/blob/main/assets/linksymbolscreenshot.gif?raw=true)
 
 ## 特性
 
