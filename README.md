@@ -1,8 +1,9 @@
 # Link Symbol Comment
+ [![GitHub](https://img.shields.io/badge/GitHub-link--symbol--comment-blue?logo=github)](https://github.com/meetrice/link-symbol-comment)
 
 在代码注释中创建可点击的链接，快速跳转到函数定义。
 
-![Link Symbol Comment 演示](assets/linksymbol.gif)
+![Link Symbol Comment 演示](https://raw.githubusercontent.com/meetrice/link-symbol-comment/main/assets/linksymbol.gif)
 
 ## 特性
 
