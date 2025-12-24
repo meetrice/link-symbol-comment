@@ -2,7 +2,7 @@
   "name": "link-symbol-comment",
   "displayName": "Link Symbol Comment",
   "description": "Navigate to function definitions through comment links using [description](file.ext@function_name) or [description](@function_name) syntax. Supports Python, JavaScript, TypeScript, PHP, Java, and more.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "meetrice",
   "icon": "icon.png",
   "engines": {
